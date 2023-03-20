@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        margin-block: 50px;
+        font-size: 12px;
+        color: hsl(224, 30%, 27%);
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="result-component">
+      <div class="result">
+        <h3 class="muted-text title">Your Result</h3>
+        <div class="circle">
+          <div class="big-text">76</div>
+          <div class="sub-text">of 100</div>
+        </div>
+        <h2>Great</h2>
+        <p class="info">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+      <div class="summary">
+        <h2 class="summary-text">Summary</h2>
+        <div class="card-wrapper">
+          <!-- card one -->
+          <div class="card one">
+            <div class="left">
+              <span><img src="./assets/images/icon-reaction.svg" /> </span>
+              <h4 class="type">Reaction</h4>
+            </div>
+            <div class="right">
+              <h4>
+                <span class="score">80</span><span class="total"> / 100</span>
+              </h4>
+            </div>
+          </div>
+          <!-- card two -->
+          <div class="card two">
+            <div class="left">
+              <span><img src="./assets/images/icon-memory.svg" /> </span>
+              <h4 class="type">memory</h4>
+            </div>
+            <div class="right">
+              <h4>
+                <span class="score">80</span><span class="total"> / 100</span>
+              </h4>
+            </div>
+          </div>
+          <!-- card three -->
+          <div class="card three">
+            <div class="left">
+              <span><img src="./assets/images/icon-verbal.svg" /> </span>
+              <h4 class="type">verbal</h4>
+            </div>
+            <div class="right">
+              <h4>
+                <span class="score">80</span><span class="total"> / 100</span>
+              </h4>
+            </div>
+          </div>
+          <!-- card four -->
+          <div class="card four">
+            <div class="left">
+              <span><img src="./assets/images/icon-visual.svg" /> </span>
+              <h4 class="type">visual</h4>
+            </div>
+            <div class="right">
+              <h4>
+                <span class="score">80</span><span class="total"> / 100</span>
+              </h4>
+            </div>
+          </div>
+        </div>
+
+        <a href="#" class="btn">Continue</a>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="">Kishor Karki</a>.
+    </div>
+  </body>
+</html>
